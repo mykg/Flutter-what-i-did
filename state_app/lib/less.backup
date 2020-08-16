@@ -1,0 +1,33 @@
+class MyApp extends StatelessWidget {
+
+  var db = ['first', 'second', 'third'];
+  var index = 0;
+  click(){
+    index += 1;
+    print("clicked...");
+    print("Index Changed");
+    print(index);
+  }
+
+  @override
+  Widget build(BuildContext c) {
+    return Scaffold(
+        appBar: AppBar(
+          title: Text('AppBAR'),
+        ),
+        body: Center(
+          child: Container(
+            width: MediaQuery.of(c).size.width * 0.8 ,
+            height: MediaQuery.of(c).size.height * 0.4,
+            color: Colors.transparent,
+            child: Column(
+              children: <Widget>[
+                Text(db[index]),
+                FlatButton(onPressed: click, child: Text('click here')),
+              ],
+            ),
+          ),
+        ),
+      );
+  }
+}
