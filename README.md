@@ -12,3 +12,4 @@
 - **gps_app** : async and await concept
 - **state_app** : statefull widget for statefull variable whose value is changing, used media query for setting width etc..
 - **json_app** : api, about json, somewhat about api creation and what api is, used weather api, converting to json
+- **nav_app** : navigator, routes, ListView, how to navigate, listView used card etc
