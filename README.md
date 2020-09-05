@@ -16,3 +16,4 @@
 - **mystateful_app** : stateful widget, initstate(), deactivate() default in stateful widget, how it is different from stateless
 - **firebase_app** : firestore, firebase, sending data and receiving data from and to documents of firestore
 - **firebase_app2** : login and signup authentication system
+- **socialchat_app** : chat app concept and login and signup authentication firebase
