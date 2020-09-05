@@ -14,3 +14,4 @@
 - **json_app** : api, about json, somewhat about api creation and what api is, used weather api, converting to json
 - **nav_app** : navigator, routes, ListView, how to navigate, listView used card etc
 - **mystateful_app** : stateful widget, initstate(), deactivate() default in stateful widget, how it is different from stateless
+- **firebase_app** : firestore, firebase, sending data and receiving data from and to documnents
