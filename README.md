@@ -17,3 +17,5 @@
 - **firebase_app** : firestore, firebase, sending data and receiving data from and to documents of firestore
 - **firebase_app2** : login and signup authentication system
 - **socialchat_app** : chat app concept and login and signup authentication firebase
+- **socialchat_app2** : streaming data on realtime from firebase using .snapshot, getting current user, docs, data n more, added ModelProgressHUD while login
+- **socialchat_app3** : streaing data more modified or ez look, msgtextcontroller for cleaning TextField after sending msg, for in loop concept
